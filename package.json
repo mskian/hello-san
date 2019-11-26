@@ -22,9 +22,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/mskian/santhosh-veer-blog.git"
+		"url": "https://github.com/mskian/hello-san.git"
 	},
-	"bugs": "https://github.com/mskian/santhosh-veer-blog/issues",
+	"bugs": "https://github.com/mskian/hello-san/issues",
 	"keywords": [
 		"bulma",
 		"responsive",
