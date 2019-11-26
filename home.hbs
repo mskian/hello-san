@@ -1,0 +1,58 @@
+{{!< default}}
+
+{{#if @member}}
+
+
+<section class="hero">
+<div class="hero-body">
+<div class="container content app">
+<div class="column is-half is-offset-one-quarter">
+<div class="control has-addons">
+<h2 class="title has-text-centered">User Dashboard</h2>
+<p>Hey there 😍
+<strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}</p>
+<p>you can Now Access our all Membership Only post and Free File Downloads.</p>
+<div class="table-container">
+<table class="table">
+<thead>
+<tr>
+<th>Your Registered Email-ID</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span><b>{{@member.email}}</b></span></a></td>
+</tr>
+</tbody>
+</table>
+</div>
+<blockquote>Hello - Dashboard under Construction</blockquote>
+<hr>
+</div>
+</div>
+</div>
+</section>
+
+{{else}}
+
+{{#page}}
+
+<section class="section">
+<div class="container content">
+<div class="columns is-centered">
+<div class="column is-half">
+<article class="{{post_class}}">
+<h1 class="title has-text-weight-bold has-text-centered">{{title}}</h1>
+<hr>
+<section class="post-content">
+{{content}}
+</section>
+</article>
+</div>
+</div>
+</div>
+</section>
+
+{{/page}}
+
+{{/if}}

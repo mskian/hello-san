@@ -1,0 +1,56 @@
+{{!< default}}
+
+{{#if @member}}
+
+<script>window.location = '{{@site.url}}';</script>
+
+{{else}}
+
+<section class="section">
+<div class="container content">
+<div class="columns is-centered">
+<div class="column is-half">
+
+<article class="{{post_class}}">
+<section class="post-content">
+
+<div class="card-content content user-form login">
+<ul class="has-text-weight-bold">
+<li>Enter your Email - Accecpt the Terms and policy by Checking the checkbox</li>
+<li>After Successful Login, you will Recieve the Account Sign-in Link to your Email inbox</li>
+</ul>
+ <br>
+ <form id="signData" data-members-form="signin">
+ <div class="field">
+<label class="label has-text-centered has-text-grey-dark">Your email address*</label>
+ <div class="control">
+ <input class="input is-info column is-half input-box" type="text" data-members-email name="email" id="email" placeholder="Email address">
+ </div>
+ </div>
+ 
+<div class="subtitle has-text-centered">
+<label class="checkbox">
+<input id="check" name="check" type="checkbox" style="display:inline;" onchange="UserAgreement()">
+</label>
+<p class="has-text-danger has-text-weight-bold" style="font-size:14px; margin:2px; vertical-align:middle; display:inline;">
+Yes, I Accept this website Privacy and Cookie Policy to Continue My Login
+</p>
+</div>
+   
+<div class="control">
+<button id="push" type="submit" class="button is-success sign-button" disabled>🔐 Send Login Link</button>
+</div>
+<br>
+<div class="has-text-centered" id="notice"></div>
+</form>
+</div>
+
+</section>
+</article>
+
+</div>
+</div>
+</div>
+</section>
+
+{{/if}}
