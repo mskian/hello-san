@@ -10,7 +10,7 @@ A Simple and Responsive Ghost Blog theme.
 
 - Ghost v3 - <https://ghost.org/3/>
 - Ghost theme with Membership Feature - <https://ghost.org/members/>
-- Ghost theme for My Personal Blog - Automatically deploy to Ghost Admin Dasboard
+- Ghost Dynamic URLs & Dynamic Routing - <https://ghost.org/docs/api/v3/handlebars-themes/routing/>
 
 📦 **Goal**: Build Memebership Site on Ghost with Static Home page
 
