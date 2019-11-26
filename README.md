@@ -4,7 +4,7 @@
 
 No ideas 🤖 But i have ideas 😅
 
-> Experimenting ⚗ the Ghost Membership Feature and Dynamic URLs & Dynamic Routing
+> Experimenting ⚗ the Ghost Membership Feature, Dynamic URLs & Dynamic Routing
 
 A Simple and Responsive Ghost Blog theme.
 
@@ -17,6 +17,7 @@ A Simple and Responsive Ghost Blog theme.
 - [x] Static Home Page
 - [x] Registration Form on Home page
 - [x] Custom Login Page
+- [x] Form Validation
 - [x] User Dasboard
 - [x] Blog Page
 - [ ] Paid Membership Feature
