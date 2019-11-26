@@ -27,7 +27,7 @@ A Simple and Responsive Ghost Blog theme.
 - Download or install via git on your Ghost theme Directory `/content/themes/`
 
 ```bash
-git clone https://github.com/mskian/hell-san.git
+git clone https://github.com/mskian/hello-san.git
 ```
 
 - Install Modules via `yarn`
@@ -58,9 +58,33 @@ yarn test
 yarn zip
 ```
 
-- Enable Static Home page and Blog Post page - Login to your Ghost Admin Dashboard and Upload this routes file on Lab Section
-- Next Open post Editor and Goto Pages - Create a New Page with permalink `home`
-- Add this Below Registration Code on HTML Block
+- Enable Static Home page and Blog Post page
+- Login to your Ghost Admin Dashboard and Upload this routes file on Lab Section
+
+`routes.yaml`
+
+```yaml
+routes:
+  /:
+    data: page.home
+    template: home
+  /login/:
+    template: login
+
+collections:
+  /blog/:
+    permalink: /blog/{slug}/
+    template: index
+    filter: slug:-home
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/
+```
+
+- Open post Editor and Goto Pages - Create a New Page with permalink `home`
+- Add some text Contents
+- Next Add this Below Registration Code in the HTML Block
 
 ```html
 <div class="card-content content user-form login">
@@ -97,27 +121,6 @@ Yes, I Accept this website Privacy and Cookie Policy to Continue My Registration
 <p class="has-text-weight-bold has-text-centered"><small>Already Having an Account &rarr; <a href="http://localhost:2368/login/">Log in</a></small></p>
 
 </div>
-```
-
-`routes.yaml`
-
-```yaml
-routes:
-  /:
-    data: page.home
-    template: home
-  /login/:
-    template: login
-
-collections:
-  /blog/:
-    permalink: /blog/{slug}/
-    template: index
-    filter: slug:-home
-
-taxonomies:
-  tag: /tag/{slug}/
-  author: /author/{slug}/
 ```
 
 ## LICENSE 📜
