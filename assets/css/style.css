@@ -29,6 +29,9 @@
   a:hover {
     color: #0f00df;
   }
+  b {
+      font-weight: 500;
+  }
   .navbar{
     background-color: #ffd900;
     margin-bottom: 30px;
