@@ -89,14 +89,14 @@ taxonomies:
 ```html
 <div class="card-content content user-form login">
 
-<ul class="has-text-weight-bold">
+<ul class="has-text-weight-medium">
 <li>Enter your Email - Accecpt the Terms and policy by Checking the checkbox</li>
 <li>After Successful Signup, you will Recieve the Account Activation Link on your Email</li>
 </ul>
  <br>
  <form id="sigupData" data-members-form="signup">
  <div class="field">
-<label class="label has-text-centered has-text-grey-dark">Your email address*</label>
+<label class="label has-text-centered has-text-weight-medium has-text-grey-dark">Your email address*</label>
  <div class="control">
  <input class="input is-info column is-half input-box" type="text" data-members-email name="email" id="email" placeholder="Email address">
  </div>
@@ -106,7 +106,7 @@ taxonomies:
 <label class="checkbox">
 <input id="check" name="check" type="checkbox" style="display:inline;" onchange="RegisterAgreement()">
 </label>
-<p class="has-text-danger has-text-weight-bold" style="font-size:14px; margin:2px; vertical-align:middle; display:inline;">
+<p class="has-text-danger has-text-weight-medium" style="font-size:14px; margin:2px; vertical-align:middle; display:inline;">
 Yes, I Accept this website Privacy and Cookie Policy to Continue My Registration
 </p>
 </div>
