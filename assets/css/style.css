@@ -10,7 +10,7 @@
     background-color: rgba(191, 18, 253, 0.5);
   }
   body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 16px;
     background-color: #ffffff;
     color: rgba(0, 0, 0, 0.6);
@@ -46,7 +46,7 @@
       background-color: #6a67ce;
     }
     a.navbar-item {
-      font-weight: 700;
+      font-weight: 500;
       font-size: 14px;
     }
   
@@ -91,7 +91,7 @@
    text-rendering: optimizelegibility !important;
   }
   .join-more {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
@@ -106,7 +106,7 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
-    font-weight: bold;
+    font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
    -moz-font-smoothing: antialiased !important;
@@ -116,7 +116,7 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
-    font-weight: bold;
+    font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
    -moz-font-smoothing: antialiased !important;
@@ -126,7 +126,7 @@
     font-size: 12px;
     text-transform: uppercase;
     color: #000;
-    font-weight: bold;
+    font-weight: 500;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
    -moz-font-smoothing: antialiased !important;
@@ -135,31 +135,47 @@
 .post-content {
     letter-spacing: .03em;
     word-wrap: break-word;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
     color: #221f1f;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
    -moz-font-smoothing: antialiased !important;
    text-rendering: optimizelegibility !important;
 }
+h1{font-weight:500;font-size:23px;}
+h2{font-weight:500;font-size:21px;}
+h3{font-weight:500;font-size:20px;}
+h4{font-weight:500;font-size:18px;}
+h5{font-weight:500;font-size:18px;}
+h1, h2, h3, h4, h5, h6 {
+    color: #050505;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -moz-hyphens: auto;
+    -ms-hyphens: auto;
+    -o-hyphens: auto;
+    hyphens: auto;
+}
 .content h1 {
     font-size:21px;
-    font-weight: bold;
+    font-weight: 500;
 }
 .content h2 {
-    font-size:20px;
-    font-weight: bold;
+    font-size:21px;
+    font-weight: 500;
 }
 .content h3 {
     font-size:20px;
+    font-weight: 500;
 }
 .content h4 {
     font-size:18px;
+    font-weight: 500;
 }
 .post-nav p {
     font-size: 16px;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .post-content img {
     max-width: 80%;
@@ -170,8 +186,8 @@
 p {
     letter-spacing: .03em;
     word-wrap: break-word;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
     color: #221f1f;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
@@ -180,22 +196,22 @@ p {
 }
 blockquote {
     letter-spacing: .03em;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
    -moz-font-smoothing: antialiased !important;
    text-rendering: optimizelegibility !important;
   }
   .user-form {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
   }
 .user-form p {
     letter-spacing: .03em;
     line-height: 20px;
     margin-bottom: 20px;
     word-wrap: break-word;
-    font-family: 'Nunito', sans-serif;
-    font-size: 18px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 16px;
     color: #221f1f;
     -moz-osx-font-smoothing: grayscale;
    -webkit-font-smoothing: antialiased !important;
@@ -205,8 +221,8 @@ blockquote {
 .user-form button {
     display: flex;
     flex-grow: 0.3;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
     border-radius: 32px;
@@ -219,8 +235,8 @@ blockquote {
 .user-form input {
     display: flex;
     flex-grow: 0.3;
-    font-family: 'Nunito', sans-serif;
-    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
     font-size: 14px;
     border-radius: 32px;
     padding: 12px;
@@ -233,7 +249,7 @@ code {
     padding: 0 5px 2px;
     font-size: 0.8em;
     line-height: 1em;
-    font-weight: 400!important;
+    font-weight: 400;
     border-radius: 3px;
     color: rgb(41, 38, 38);
     background: rgb(243, 179, 42);
@@ -289,7 +305,7 @@ pre code {
 }
 .level-item {
   font-size: 16px;
-  font-weight: 700;
+  font-weight: 500;
 }
 .input-box,
 .sign-button,
@@ -301,7 +317,7 @@ textarea {
     max-width: 100%;
 }
 .sign-button {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
     padding: 12px;
@@ -322,7 +338,7 @@ input[type=checkbox] {
   /* Social icons */
   .widgetheading h1 {
       font-size: 24px;
-      font-weight: 700;
+      font-weight: 500;
       padding: 7px 0 7px 0;
       color: #222222;
       text-align: center;
@@ -379,7 +395,7 @@ input[type=checkbox] {
     width: auto;
     border-spacing: 0;
     border-collapse: collapse;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     font-size: 14px;
     white-space: nowrap;
     vertical-align: top;
@@ -387,7 +403,7 @@ input[type=checkbox] {
 table th {
     color:  #15171A;
     font-size: 14px;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 0.2px;
     text-align: left;
     text-transform: uppercase;
@@ -424,7 +440,7 @@ table td {
     margin: 5px 0;
     padding: 10px 32px;
     color: #fff !important;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 1.4;
     font-weight: 400;
     text-align: center;
@@ -433,7 +449,7 @@ table td {
     border-radius: 3px;
     box-shadow: inset 0 0 0 1px rgba(0,0,0,.14);
     -webkit-font-smoothing: subpixel-antialiased;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 .button-link:hover {
 background: linear-gradient(#36a6e2,#29a0e0 60%,#29a0e0 90%,#4fb7f0);
@@ -477,7 +493,7 @@ box-shadow: 0px 0px 5px 0 rgba(100, 100, 100, 0.5);
     color: #15171A;
     font-size: 3.5rem;
     line-height: 1;
-    font-weight: 600;
+    font-weight: 500;
 }
 .subscribe-form-description {
     margin-bottom: 0.2em 0 1em;
@@ -496,7 +512,7 @@ box-shadow: 0px 0px 5px 0 rgba(100, 100, 100, 0.5);
 }
 #cookie-notice {
     color: #fff;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     background: #596cd5;
     padding: 20px;
     position: fixed;
@@ -528,8 +544,8 @@ box-shadow: 0px 0px 5px 0 rgba(100, 100, 100, 0.5);
     }
 }
 footer p {
-    font-size: 16px;
-    font-weight: 700;
+    font-size: 15px;
+    font-weight: 500;
 }
   .kg-image-card {
     max-height: 100%;
@@ -547,7 +563,7 @@ footer p {
     margin: 0 auto
   }
   .kg-image-card figcaption {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
     color: #8a9199;
     text-align: center;
     max-width: 32em;
@@ -607,7 +623,7 @@ footer p {
   }
   .kg-bookmark-container {
       display: flex;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Ubuntu', sans-serif;
       color: #15171A;
       text-decoration: none;
       min-height: 148px;
@@ -625,7 +641,7 @@ footer p {
   .kg-bookmark-title {
       font-size: 1.6rem;
       line-height: 1.5em;
-      font-weight: 600;
+      font-weight: 500;
       color: #738a94;
   }
   .kg-bookmark-container:hover .kg-bookmark-title {

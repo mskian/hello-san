@@ -2,15 +2,14 @@
 
 {{#if @member}}
 
-
 <section class="hero">
 <div class="hero-body">
 <div class="container content app">
 <div class="column is-half is-offset-one-quarter">
 <div class="control has-addons">
-<h2 class="title has-text-centered">User Dashboard</h2>
+<h2 class="title has-text-weight-medium has-text-centered">User Dashboard</h2>
 <p>Hey there 😍
-<strong>{{@member.email}}</strong> is subscribed to free updates from {{@site.title}}</p>
+<span class="has-text-weight-medium">{{@member.email}}</span> is subscribed to free updates from {{@site.title}}</p>
 <p>you can Now Access our all Membership Only post and Free File Downloads.</p>
 <div class="table-container">
 <table class="table">
@@ -21,7 +20,7 @@
 </thead>
 <tbody>
 <tr>
-<td><span><b>{{@member.email}}</b></span></a></td>
+<td><span class="has-text-weight-medium">{{@member.email}}</b></span></td>
 </tr>
 </tbody>
 </table>
@@ -42,7 +41,7 @@
 <div class="columns is-centered">
 <div class="column is-half">
 <article class="{{post_class}}">
-<h1 class="title has-text-weight-bold has-text-centered">{{title}}</h1>
+<h1 class="title has-text-weight-medium has-text-centered">{{title}}</h1>
 <hr>
 <section class="post-content">
 {{content}}
