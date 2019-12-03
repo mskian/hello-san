@@ -11,6 +11,7 @@ A Simple and Responsive Ghost Blog theme
 - Ghost v3 - <https://ghost.org/3/>
 - Ghost theme with Membership Feature - <https://ghost.org/members/>
 - Ghost Dynamic URLs & Dynamic Routing - <https://ghost.org/docs/api/v3/handlebars-themes/routing/>
+- Native email newsletters - <https://ghost.org/blog/native-email/>
 
 📦 **Goal**: Build Memebership Site on Ghost with Static Home page
 
@@ -20,6 +21,7 @@ A Simple and Responsive Ghost Blog theme
 - [x] Form Validation
 - [x] User Dasboard
 - [x] Blog Page
+- [x] Email NewsLetters
 - [ ] Paid Membership Feature
 
 ## Development 🛠
