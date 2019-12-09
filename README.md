@@ -1,6 +1,6 @@
 # Hello San ✌
 
-[![devDependencies Status](https://david-dm.org/mskian/hello-san/dev-status.png)](https://david-dm.org/mskian/hello-san?type=dev) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Test/badge.svg)](https://github.com/mskian/hello-san/actions)  
+[![devDependencies Status](https://david-dm.org/mskian/hello-san/dev-status.png)](https://david-dm.org/mskian/hello-san?type=dev) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Test/badge.svg)](https://github.com/mskian/hello-san/actions) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Deploy%20Theme/badge.svg)](https://github.com/mskian/hello-san/actions)  
 
 No ideas 🤖 But i have ideas 😅
 
@@ -98,7 +98,7 @@ taxonomies:
  <br>
  <form id="sigupData" data-members-form="signup">
  <div class="field">
-<label class="label has-text-centered has-text-weight-medium has-text-grey-dark">Your email address*</label>
+<label class="label has-text-centered has-text-weight-medium">Your email address*</label>
  <div class="control">
  <input class="input is-info column is-half input-box" type="text" data-members-email name="email" id="email" placeholder="Email address">
  </div>
