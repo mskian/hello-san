@@ -6,23 +6,25 @@ No ideas 🤖 But i have ideas 😅
 
 > Experimenting ⚗ the Ghost Membership Feature, Dynamic URLs & Dynamic Routing
 
-A Simple and Responsive Ghost Blog theme
+A Simple and Responsive Ghost Blog theme for Email Newsletters 📮
 
 - Ghost v3 - <https://ghost.org/3/>
 - Ghost theme with Membership Feature - <https://ghost.org/members/>
+- Build Membership Feature - <https://ghost.org/docs/members/introduction/>
 - Ghost Dynamic URLs & Dynamic Routing - <https://ghost.org/docs/api/v3/handlebars-themes/routing/>
-- Native email newsletters - <https://ghost.org/blog/native-email/>
+- Native Email Newsletters - <https://ghost.org/blog/native-email/>
 
-📦 **Goal**: Build Memebership Site on Ghost with Static Home page
+📦 **Goal**: Build Free Memebership Site + Email Newsletters on Ghost with Static Home page
 
 - [x] Static Home Page
 - [x] Registration Form on Home page
-- [x] Custom Login Page
+- [x] Custom registration Page  - `https://example.com/register/`
+- [x] Custom Login Page - `https://example.com/login/`
 - [x] Form Validation
 - [x] User Dasboard
-- [x] Blog Page
-- [x] Email NewsLetters
-- [ ] Paid Membership Feature
+- [x] Newsletter Page - `https://example.com/newsletter/`
+- [x] Native Email NewsLetters
+- ~~Paid Membership Feature~~ Build Free Memebership Site with Newsletter Feature
 
 ## Development 🛠
 
@@ -72,10 +74,12 @@ routes:
     template: home
   /login/:
     template: login
+  /register/:
+    template: register
 
 collections:
-  /blog/:
-    permalink: /blog/{slug}/
+  /newsletter/:
+    permalink: /newsletter/{slug}/
     template: index
     filter: slug:-home
 

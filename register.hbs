@@ -17,35 +17,36 @@
 <div class="card-content content user-form login">
 <ul class="has-text-weight-medium">
 <li>Enter your Email - Accecpt the Terms and policy by Checking the checkbox</li>
-<li>After Successful Login, you will Recieve the Account Sign-in Link to your Email inbox</li>
+<li>After Successful Signup, you will Recieve the Account Activation Link on your Email</li>
 </ul>
  <br>
- <form id="signData" data-members-form="signin">
+ <form id="sigupData" data-members-form="signup">
  <div class="field">
 <label class="label has-text-centered has-text-weight-medium">Your email address*</label>
  <div class="control">
  <input class="input is-info column is-half input-box" type="text" data-members-email name="email" id="email" placeholder="Email address">
  </div>
  </div>
- 
+
 <div class="subtitle has-text-centered">
 <label class="checkbox">
-<input id="check" name="check" type="checkbox" style="display:inline;" onchange="UserAgreement()">
+<input id="check" name="check" type="checkbox" style="display:inline;" onchange="RegisterAgreement()">
 </label>
 <p class="has-text-danger has-text-weight-medium" style="font-size:14px; margin:2px; vertical-align:middle; display:inline;">
-Yes, I Accept this website Privacy and Cookie Policy to Continue My Login
+Yes, I Accept this website Privacy and Cookie Policy to Continue My Registration
 </p>
 </div>
-   
+
 <div class="control">
-<button id="push" type="submit" class="button is-success sign-button" disabled>🔐 Send Login Link</button>
+<button id="pushdata" type="submit" class="button is-success sign-button" disabled>📝 Register</button>
 </div>
 <br>
-<div class="has-text-centered" id="notice"></div>
+<div class="has-text-centered" id="registernotice"></div>
 </form>
 <br>
-<p class="has-text-weight-bold has-text-centered"><small>Don't have an account yet &rarr; <a href="{{@site.url}}/register/">Sign up</a></small></p>
+<p class="has-text-weight-bold has-text-centered"><small>Already Having an Account &rarr; <a href="{{@site.url}}/login/">Log in</a></small></p>
 </div>
+
 
 </section>
 </article>

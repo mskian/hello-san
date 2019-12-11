@@ -1,0 +1,18 @@
+routes:
+  /:
+    data: page.home
+    template: home
+  /login/:
+    template: login
+  /register/:
+    template: register
+
+collections:
+  /newsletter/:
+    permalink: /newsletter/{slug}/
+    template: index
+    filter: slug:-home
+
+taxonomies:
+  tag: /tag/{slug}/
+  author: /author/{slug}/

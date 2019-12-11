@@ -286,7 +286,6 @@ pre code {
     letter-spacing: .03em;
     word-wrap: break-word;
     color: #6200ff;
-    border-bottom: 0.125em solid rgb(223, 152, 0);
     -moz-osx-font-smoothing: grayscale;
     -webkit-font-smoothing: antialiased !important;
     -moz-font-smoothing: antialiased !important;
