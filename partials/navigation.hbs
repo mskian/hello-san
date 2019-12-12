@@ -19,6 +19,7 @@
 {{#if @member}}
 <a class="navbar-item" href="#signout" data-members-signout><i class="fas fa-sign-out-alt"></i> &nbsp; Log out</a>
 {{else}}
+<a class="navbar-item" href="{{@site.url}}/register/"><i class="fas fa-user-plus"></i> &nbsp; Subscribe</a>
 <a class="navbar-item" href="{{@site.url}}/login/"><i class="fas fa-sign-in-alt"></i> &nbsp; Log in</a>
 {{/if}}
 
