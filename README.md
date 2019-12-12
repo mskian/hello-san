@@ -24,7 +24,7 @@ A Simple and Responsive Ghost Blog theme for Email Newsletters 📮
 - [x] User Dasboard
 - [x] Newsletter Page - `https://example.com/newsletter/`
 - [x] Native Email NewsLetters
-- ~~Paid Membership Feature~~ Build Free Memebership Site with Newsletter Feature
+- ~~Paid Membership Feature~~ - Build Free Memebership Site with Newsletter Feature
 
 ## Development 🛠
 
