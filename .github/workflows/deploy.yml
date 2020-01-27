@@ -13,5 +13,5 @@ jobs:
         with:
           api-url: ${{ secrets.GHOST_ADMIN_API_URL }}
           api-key: ${{ secrets.GHOST_ADMIN_API_KEY }}
-          exclude: "gulpfile.js renovate.json *dist/*"
+          exclude: "*dist/*"
           theme-name: "hello-san"
