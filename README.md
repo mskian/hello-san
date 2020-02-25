@@ -106,6 +106,7 @@ taxonomies:
 <input class="input is-info column is-half input-box" type="text" data-members-email name="email" id="email" placeholder="Email address">
 </div>
 </div>
+<input data-members-label type="hidden" value="Home Page" />
 <div class="subtitle has-text-centered">
 <label class="checkbox">
 <input id="check" name="check" type="checkbox" style="display:inline;" onchange="RegisterAgreement()">
