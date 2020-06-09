@@ -1,6 +1,6 @@
 # Hello San ✌
 
-![Uptime Robot status](https://img.shields.io/uptimerobot/status/m784280794-e1dad0de0e2f4ce56f089415) [![devDependencies Status](https://david-dm.org/mskian/hello-san/dev-status.png)](https://david-dm.org/mskian/hello-san?type=dev) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Test/badge.svg)](https://github.com/mskian/hello-san/actions) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Deploy%20Theme/badge.svg)](https://github.com/mskian/hello-san/actions)  
+[![devDependencies Status](https://david-dm.org/mskian/hello-san/dev-status.png)](https://david-dm.org/mskian/hello-san?type=dev) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Test/badge.svg)](https://github.com/mskian/hello-san/actions)  
 
 No ideas 🤖 But i have ideas 😅
 
