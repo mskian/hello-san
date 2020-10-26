@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2.0.0
       - name: Cache node modules
-        uses: actions/cache@v1.1.2
+        uses: actions/cache@v1.2.0
         with:
           path: node_modules
           key: ${{ runner.OS }}-build-${{ hashFiles('**/yarn.lock') }}
