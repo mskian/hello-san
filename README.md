@@ -1,7 +1,5 @@
 # Hello San ✌
 
-[![devDependencies Status](https://david-dm.org/mskian/hello-san/dev-status.png)](https://david-dm.org/mskian/hello-san?type=dev) [![Github Workflow](https://github.com/mskian/hello-san/workflows/Test/badge.svg)](https://github.com/mskian/hello-san/actions)  
-
 No ideas 🤖 But i have ideas 😅
 
 > Experimenting ⚗ the Ghost Membership Feature, Dynamic URLs & Dynamic Routing
